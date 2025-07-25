@@ -1,7 +1,228 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jarryd Eigenmann - IT Student & Developer</title>
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --secondary: #3498db;
+            --light: #ecf0f1;
+            --dark: #2c3e50;
+            --accent: #e74c3c;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        
+        header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid var(--secondary);
+        }
+        
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 30px;
+            border: 3px solid var(--secondary);
+        }
+        
+        h1 {
+            color: var(--primary);
+            margin-bottom: 5px;
+        }
+        
+        h2 {
+            color: var(--secondary);
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+        
+        h3 {
+            color: var(--dark);
+            margin-bottom: 5px;
+        }
+        
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin: 20px 0;
+        }
+        
+        .contact-info a {
+            color: var(--secondary);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+        }
+        
+        .contact-info a:hover {
+            color: var(--accent);
+        }
+        
+        .section {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+        
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        
+        .skill-category {
+            flex: 1;
+            min-width: 250px;
+        }
+        
+        .experience-item, .education-item {
+            margin-bottom: 20px;
+        }
+        
+        .date {
+            color: #7f8c8d;
+            font-style: italic;
+        }
+        
+        .interests {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        
+        .interest-card {
+            flex: 1;
+            min-width: 300px;
+            background: var(--light);
+            padding: 15px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <header>
+        <img src="profile.jpg" alt="Jarryd Eigenmann" class="profile-img">
+        <div>
+            <h1>Jarryd Eigenmann</h1>
+            <h3>B.Sc. IT Student</h3>
+            <div class="contact-info">
+                <a href="tel:0815231178">📞 081 523 1178</a>
+                <a href="mailto:jarrydeigs@gmail.com">✉️ jarrydeigs@gmail.com</a>
+                <a href="https://www.linkedin.com/in/jarryd-eigs-164044308/" target="_blank">🔗 LinkedIn</a>
+                <a href="https://github.com/Jarryd-Eigenmann" target="_blank">💻 GitHub</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="section">
+        <h2>Profile</h2>
+        <p>I am an English-speaking Information Technology student at North-West University (NWU), North West, South Africa. After two years of studying engineering, I transitioned to a BSc in IT to prioritize my mental health and rekindle my passion for coding. I am highly computer literate and proficient in several programming languages, which allows me to adapt quickly to new technologies and solve complex problems.</p>
+        <p>I am intuitive, determined, and eager to learn, consistently seeking opportunities to enhance my technical skills and knowledge. Additionally, my academic journey has refined my communication and technical documentation abilities, ensuring clarity and professionalism in all my work.</p>
+    </div>
+
+    <div class="section">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3>Programming & Development</h3>
+                <ul>
+                    <li>Proficient in Application Development, with a focus in Back-End Development</li>
+                    <li>Skilled in Java, JavaScript, Assembly, Python, C++, C, C#, HTML, and SQL</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Mathematics & Analytical Skills</h3>
+                <ul>
+                    <li>Strong proficiency in data science, calculus, and algebra for algorithm design, modelling, and analysis</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Tools & Productivity</h3>
+                <ul>
+                    <li>Proficient in Microsoft Office Suite and Google Workspace</li>
+                    <li>Experienced in business writing and technical documentation</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Education</h2>
+        <div class="education-item">
+            <h3>National Senior Certificate (NSC)</h3>
+            <p class="date">Jan 2015 - Dec 2020</p>
+            <p>Thomas More College</p>
+        </div>
+        <div class="education-item">
+            <h3>B.Eng. Electro-Mechanical</h3>
+            <p class="date">Jan 2021 - Feb 2023</p>
+            <p>North West University</p>
+        </div>
+        <div class="education-item">
+            <h3>B.Sc. Information Technology</h3>
+            <p class="date">Feb 2023 -- Current</p>
+            <p>North West University</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Work Experience</h2>
+        <div class="experience-item">
+            <h3>Team Leader | University App Development Project</h3>
+            <ul>
+                <li>Assigned as the leader to coordinate the project's timeline, define features, and oversee documentation</li>
+                <li>Successfully managed the development process, ensuring timely delivery and effective collaboration within the team</li>
+            </ul>
+        </div>
+        <div class="experience-item">
+            <h3>IT Intern | Thomas More College, October 2019</h3>
+            <ul>
+                <li>Completed a one-month internship, gaining hands-on experience with the school's IT systems and server maintenance</li>
+                <li>Utilized Linux to develop an innovative Augmented Reality Sandbox, showcasing technical problem-solving and creativity</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Languages</h2>
+        <ul>
+            <li>English -- Native</li>
+            <li>Afrikaans - Conversational</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Interests</h2>
+        <div class="interests">
+            <div class="interest-card">
+                <h3>Gaming</h3>
+                <p>Gaming has always been a big hobby of mine. Leading to me having run a team that placed 6th globally that consisted of 122 individual members based all over the globe, included in those 122 members was 12 members of staff I personally oversaw and delegated to.</p>
+                <p>After retiring from running my own team I currently reside in a team still placing top 50 worldwide, which I now participate in, run server administration and bot development for discord, and conduct interviews and handle conflict which has taught me crucial people skills and conflict management.</p>
+            </div>
+            <div class="interest-card">
+                <h3>Bot Development</h3>
+                <p>I currently am finishing my 3rd bot on discord which all have a wide range of uses.</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
