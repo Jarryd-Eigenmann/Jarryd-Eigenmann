@@ -1,16 +1,14 @@
-## Hi there 👋
+# Jarryd Eigenmann's Virtual CV
 
-<!--
-**Jarryd-Eigenmann/Jarryd-Eigenmann** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+This is my professional portfolio website hosted on GitHub Pages, showcasing my skills, education, and experience as an IT student and developer.
 
-Here are some ideas to get you started:
+## Features
+- Clean, responsive design
+- Professional presentation of my qualifications
+- Easy access to my contact information
+- Showcase of my technical skills and projects
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Technologies Used
+- HTML5
+- CSS3
+- GitHub Pages
