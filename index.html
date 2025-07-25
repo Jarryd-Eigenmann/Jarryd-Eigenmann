@@ -116,6 +116,67 @@
             padding: 15px;
             border-radius: 8px;
         }
+        
+        .download-btn {
+            background-color: var(--secondary);
+            color: white !important;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none !important;
+            transition: all 0.3s ease;
+        }
+        
+        .download-btn:hover {
+            background-color: var(--accent);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            animation: pulse 1.5s infinite;
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        
+        .quick-links {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin: 20px 0 30px;
+            flex-wrap: wrap;
+            padding: 15px 0;
+            background: var(--light);
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .quick-links a {
+            color: var(--primary);
+            text-decoration: none;
+            padding: 8px 15px;
+            border-radius: 20px;
+            transition: all 0.3s ease;
+            font-weight: 500;
+        }
+        
+        .quick-links a:hover {
+            background-color: var(--secondary);
+            color: white;
+            transform: translateY(-2px);
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
     </style>
 </head>
 <body>
@@ -129,17 +190,26 @@
                 <a href="mailto:jarrydeigs@gmail.com">✉️ jarrydeigs@gmail.com</a>
                 <a href="https://www.linkedin.com/in/jarryd-eigs-164044308/" target="_blank">🔗 LinkedIn</a>
                 <a href="https://github.com/Jarryd-Eigenmann" target="_blank">💻 GitHub</a>
+                <a href="CV_mk1.docx" download class="download-btn">📄 Download CV</a>
             </div>
         </div>
     </header>
+    
+    <nav class="quick-links">
+        <a href="#profile">Profile</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#interests">Interests</a>
+    </nav>
 
-    <div class="section">
+    <div class="section" id="profile">
         <h2>Profile</h2>
         <p>I am an English-speaking Information Technology student at North-West University (NWU), North West, South Africa. After two years of studying engineering, I transitioned to a BSc in IT to prioritize my mental health and rekindle my passion for coding. I am highly computer literate and proficient in several programming languages, which allows me to adapt quickly to new technologies and solve complex problems.</p>
         <p>I am intuitive, determined, and eager to learn, consistently seeking opportunities to enhance my technical skills and knowledge. Additionally, my academic journey has refined my communication and technical documentation abilities, ensuring clarity and professionalism in all my work.</p>
     </div>
 
-    <div class="section">
+    <div class="section" id="skills">
         <h2>Skills</h2>
         <div class="skills-container">
             <div class="skill-category">
@@ -165,7 +235,7 @@
         </div>
     </div>
 
-    <div class="section">
+    <div class="section" id="education">
         <h2>Education</h2>
         <div class="education-item">
             <h3>National Senior Certificate (NSC)</h3>
@@ -184,7 +254,7 @@
         </div>
     </div>
 
-    <div class="section">
+    <div class="section" id="experience">
         <h2>Work Experience</h2>
         <div class="experience-item">
             <h3>Team Leader | University App Development Project</h3>
@@ -202,7 +272,7 @@
         </div>
     </div>
 
-    <div class="section">
+    <div class="section" id="languages">
         <h2>Languages</h2>
         <ul>
             <li>English -- Native</li>
@@ -210,7 +280,7 @@
         </ul>
     </div>
 
-    <div class="section">
+    <div class="section" id="interests">
         <h2>Interests</h2>
         <div class="interests">
             <div class="interest-card">
@@ -224,5 +294,9 @@
             </div>
         </div>
     </div>
+
+    <footer>
+        <p>© 2023 Jarryd Eigenmann. All rights reserved.</p>
+    </footer>
 </body>
 </html>
