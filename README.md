@@ -24,5 +24,4 @@ Professional portfolio website hosted on GitHub Pages, showcasing my skills, edu
 - Enhanced navigation menu
 
 ## Access
-Live version: `https://[your-github-username].github.io`  
-(Replace with your actual GitHub Pages URL)
+Live version: https://jarryd-eigenmann.github.io/Jarryd-Eigenmann/
