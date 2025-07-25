@@ -325,7 +325,11 @@
     </div>
 
     <footer>
-        <p>© 2023 Jarryd Eigenmann. All rights reserved.</p>
+        <p>© <span id="current-year"></span> Jarryd Eigenmann. All rights reserved.</p>
+
+	<script>
+    	    document.getElementById('current-year').textContent = new Date().getFullYear();
+	</script>
     </footer>
 </body>
 </html>
